@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #4f4e4f00;
+    background-image: linear-gradient(180deg, #000000 0%, #9f9da1 100%);
+    /* background-image: url('https://i2.wp.com/media0.giphy.com/media/xUA7beGSFsCuF4VdoA/source.gif'); */
+    background-image: url('https://www.bing.com/th/id/OGC.8b35fef55fba1a201c9c7a11d3ec3d64?pid=1.7&rurl=https%3a%2f%2fcdn.dribbble.com%2fusers%2f416610%2fscreenshots%2f4801105%2fmedia%2fbe031f8d02ca8cc404d44be54ee2c493.gif&ehk=LdtmT6WdGMrpI2R2zIsEagQ6DH%2ftueB5cDuAbmxm2Fk%3d');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
