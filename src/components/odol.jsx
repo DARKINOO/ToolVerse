@@ -66,7 +66,7 @@ function TodoL() {
 
   return (
     <>
-        <div className="mx-3 md:container md:mx-auto my-5 rounded-xl p-5 bg-slate-300 min-h-[80vh] md:w-2/3">
+        <div className="mx-3 md:container md:mx-auto my-5 rounded-xl p-5 text-slate-200 md:text-slate-700 bg-gray-800 md:bg-slate-300 min-h-[65vh] md:min-h-[80vh] md:w-2/3">
     <h1 className='font-bold text-center text-xl'>
       iTask - Manage your Todos at one place
     </h1>

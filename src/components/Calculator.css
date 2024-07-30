@@ -2,9 +2,9 @@ body{
     background: rgb(245, 245, 239);
   }
   .Calculator{
-    width: 420px;
-    height: 530px;
-    margin: 20px 350px;
+    width: 33vw;
+    height: 87vh;
+    margin: 20px 30vw;
     display: flex;
     border-radius: 10px;
     flex-direction: column;
@@ -80,3 +80,14 @@ body{
     background-color: rgb(190, 164, 98);
     box-shadow: none;
   }
+
+  @media (max-width:480px) {
+    .Calculator{
+      width: 95vw;
+      height: 90vh;
+      margin: 10px 10px;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: column;
+    }
+}

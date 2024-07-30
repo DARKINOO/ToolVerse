@@ -4,8 +4,6 @@ import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import './components/Calculator.css';
 import Home from './components/home';
-import Weather from './components/Weather';
-import './components/Weather.css';
 import  Dictionary  from './components/dictionary';
 import './components/dictionary.css';
 
@@ -25,10 +23,6 @@ function App() {
     {
       path: "/Calculator",
       element: <><Navbar/><Calculator/></>
-    },
-    {
-      path: "/Weather",
-      element: <><Navbar/><Weather/></>
     },
     {
       path: "/dictionary",

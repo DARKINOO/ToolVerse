@@ -69,3 +69,31 @@ cursor: pointer;
 #si{
     margin-left: 8px;
 }
+
+@media (max-width:480px) {
+    .dictionary h1 {
+        text-align: center;
+        font-size: 2.4em;
+        margin-top: 25px;
+    }
+    
+    .dictionary .searchBox{
+        display: flex;
+    }
+
+    .dictionary input{
+        width: 75vw;
+        height: 5vh;
+    }    
+
+    .dictionary .searchBox > button{
+        height: 5vh;
+        width: 11vw;
+        padding: 2px;
+    }
+
+    .showResults{
+        width: 90vw;
+    }
+
+}
